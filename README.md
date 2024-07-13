@@ -56,7 +56,7 @@ The course will cover and utilize the following technologies:
 2. **Spring Core**
    - Dependency Injection (DI)
    - Inversion of Control (IoC)
-   - Spring Configuration (XML and Java-based)
+   - Spring Configuration (Java-based)
 
 3. **Spring Boot**
    - Introduction to Spring Boot
