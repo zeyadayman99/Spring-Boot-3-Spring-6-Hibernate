@@ -10,11 +10,12 @@
 
 ## Repository Overview 
 
-Welcome to the Spring, Spring-Boot & HIbernate repository! This repository contains exercises based on the course curriculum.
+Welcome to my Spring, Spring-Boot & HIbernate repository! This repository contains exercises based on the course curriculum.
 
 ## Course Overview
 
 Welcome to the **Spring & Hibernate for Beginners (includes Spring Boot)** course! This course is designed to provide you with a comprehensive understanding of how to build enterprise-level applications using the Spring Framework, Spring Boot, and Hibernate ORM. Whether you are a beginner or have some experience with Java development, this course will equip you with the skills and knowledge to create robust, scalable, and maintainable applications.
+Course Link: https://www.udemy.com/course/spring-hibernate-tutorial/?couponCode=THANKSLEARNER24
 
 ## Objectives
 
@@ -97,3 +98,4 @@ The course will cover and utilize the following technologies:
 ## Respository Structure
 
 This repository is structured to mirror the sections and modules of the course. Each directory contains exercises, examples, and projects that correspond to the topics covered.
+
