@@ -46,7 +46,7 @@ The course will cover and utilize the following technologies:
 
 ## Progress
 
-![Progress](https://progress-bar.dev/90/?scale=396&title=Progress&width=500&color=babaca&suffix=%20videos%20completed)
+![25%](https://progress-bar.dev/100/)
 
 ## Course Content
 
