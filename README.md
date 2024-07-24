@@ -46,7 +46,7 @@ The course will cover and utilize the following technologies:
 
 ## Progress
 
-![25%](https://progress-bar.dev/100/)
+![100%](https://progress-bar.dev/25/)
 
 ## Course Content
 
