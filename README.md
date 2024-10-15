@@ -46,7 +46,7 @@ The course will cover and utilize the following technologies:
 
 ## Progress
 
-![Progress](https://progress-bar.dev/27/)
+![Progress](https://img.shields.io/badge/Progress-27%25-brightgreen)
 
 ## Course Content
 
