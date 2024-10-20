@@ -97,5 +97,5 @@ The course will cover and utilize the following technologies:
 
 ## Respository Structure
 
-This repository is structured to mirror the sections and modules of the course. Each directory contains exercises, examples, and projects that correspond to the topics covered.
+This Repository is structured to mirror the sections and modules of the course. Each directory contains exercises, examples, and projects that correspond to the topics covered.
 
