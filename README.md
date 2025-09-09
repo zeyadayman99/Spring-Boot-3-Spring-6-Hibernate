@@ -26,7 +26,7 @@ Course Link: https://www.udemy.com/course/spring-hibernate-tutorial/?couponCode=
 - **Spring Data JPA**: Use Spring Data JPA to simplify database access and improve productivity.
 - **Spring Security**: Secure your applications with Spring Security, including authentication and authorization.
 - **Spring AOP**: Implement Aspect-Oriented Programming with Spring AOP.
-- **Spring REST**: Build and consume RESTful web services with Spring REST.
+- **Spring REST**: Build and consume RESTful web services with Spring REST and Api Documenting using Open-Api and Swagger.
 - **Spring Transactions**: Manage transactions in Spring applications to ensure data integrity.
 
 ## Tech Stack
