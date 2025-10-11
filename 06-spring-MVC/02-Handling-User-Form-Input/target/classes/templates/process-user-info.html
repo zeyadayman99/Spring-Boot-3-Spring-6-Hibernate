@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Handle User Input Demo</title>
+    <link rel="stylesheet" th:href="@{/css/userInputFormStyle.css}" />
+    <meta name="Description" content="processing user input" />
+</head>
+
+<body>
+<p th:text="'Welcome ' + ${userName} + ' to the Spring MVC World'" class="funny"/>
+</body>
+
+</html>
