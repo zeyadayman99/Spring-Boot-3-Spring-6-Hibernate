@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Handle User Input Demo</title>
+    <link rel="stylesheet" th:href="@{/css/userInputFormStyle.css}"/>
+    <meta name="Description" content="handling user input"/>
+</head>
+
+<body>
+<h1>Welcome to Spring MVC Handling User Input</h1>
+<p>Please enter your Student name</p>
+
+<!--so data in this form will get passed as a GET Request to this method-->
+<form th:action="@{/processForm}" th:object="${student}" method="POST">
+    First name: <input type="text" th:field="*{firstName}"/>
+
+    <br/>
+
+    Last name: <input type="text" th:field="*{lastName}"/>
+    <br/>
+
+    Country:
+
+    <select th:field="*{country}">
+        <option th:each="tempCountry: ${countries}" th:value="${tempCountry}" th:text="${tempCountry}"/>
+    </select>
+
+    <br/>
+
+    <input type="submit" value="Submit"/>
+
+    <br/>
+</form>
+</body>
+
+</html>
