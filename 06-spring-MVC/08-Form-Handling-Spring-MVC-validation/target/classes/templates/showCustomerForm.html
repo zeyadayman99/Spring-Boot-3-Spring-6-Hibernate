@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Handle Customer's Input Form</title>
+    <meta name="Description" content="handling customer input"/>
+    <style>
+        .customer-fields-errors {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Welcome to Spring MVC App</h1>
+
+<i>Fill out the form, Aesterisk (*) means required.</i>
+
+<!--so data in this form will get passed as a GET Request to this method-->
+<form th:action="@{/processForm}"
+      th:object="${customer}"
+      method="POST">
+
+    First name (*): <input type="text" th:field="*{firstName}"/>
+
+    <!--Adding error messages if present-->
+    <span th:if="${#fields.hasErrors('firstName')}"
+          th:errors="*{firstName}"
+          class="customer-fields-errors"></span>
+
+    <br/>
+
+    Last name (*): <input type="text" th:field="*{lastName}"/>
+
+    <!--Adding error messages if present-->
+    <span th:if="${#fields.hasErrors('lastName')}"
+          th:errors="*{lastName}"
+          class="customer-fields-errors"></span>
+
+    <br/>
+
+    Free Passes (*): <input type="text" th:field="*{freePasses}"/>
+
+    <!--Adding error messages if present-->
+    <span th:if="${#fields.hasErrors('freePasses')}"
+          th:errors="*{freePasses}"
+          class="customer-fields-errors"></span>
+
+    <br/>
+
+    Postal Code (*): <input type="text" th:field="*{postalCode}"/>
+
+    <!--Adding error messages if present-->
+    <span th:if="${#fields.hasErrors('postalCode')}"
+          th:errors="*{postalCode}"
+          class="customer-fields-errors"></span>
+
+    <br/>
+
+    Course (*): <input type="text" th:field="*{course}"/>
+
+    <!--Adding error messages if present-->
+    <span th:if="${#fields.hasErrors('course')}"
+          th:errors="*{course}"
+          class="customer-fields-errors"></span>
+
+    <br/>
+
+    <input type="submit" value="Submit"/>
+
+    <br/>
+</form>
+</body>
+
+</html>
