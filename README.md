@@ -46,7 +46,7 @@ The course will cover and utilize the following technologies:
 
 ## Progress
 
-![Progress](https://img.shields.io/badge/Progress-40%25-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-50%25-brightgreen)
 
 ## Course Content
 
